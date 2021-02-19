@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import "bootstrap.min.css";
+@import "all.min.css";
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    margin: 0;
+}
+
+section{
+    margin-top: 60px;
+}
+
+
+
+
+/*Style for Home page*/
+
+/*Style for Header*/
+
+header .header-top{
+    background-color: #ffffff;
+    padding-top: 8px;
+}
+header .header-top .wc-message{
+    color: #007bff;
+    font-size: 1rem;
+}
+header .header-top .nav .nav-link{
+    color: #9f9e9c;
+    font-size: 0.75rem;
+    padding: 0 1rem 0.4rem;
+}
+header .header-top .nav .nav-link .input-group{
+    width: 150%;
+}
+
+header .header-top .nav .nav-link .input-group .form-control{
+    padding: 0 0 0 5px;
+    height: 25px;
+    font-size: 1rem;
+    border-radius: 0;
+}
+header .header-top .nav .nav-link .btn{
+    padding: 0 6px;
+    font-size: 0.75rem;
+    border-radius: 0;
+}
+
+header .bg-light{
+    background-color: #ffffff !important;
+}
+header .navbar .navbar-nav .nav-link{
+    font-size: 0.9rem;
+    padding: 0 1rem;
+}
+
+/*Style for services section*/
+
+#services .col-sm-4 .services-icon{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ebebeb;
+    color: #ffa800;
+    position: relative;
+}
+
+#services .col-sm-4 .services-icon p{
+    position: absolute;
+    top: 19px;
+    left: 19px;
+}
+#services .col-sm-4 .services-icon:hover{
+    background-color: #ffa800;
+    color: #ffffff;
+    border-radius: 100%;
+    transition: background-color 3s, color 3s, border-radius 3s;
+}
+
+
+.border{
+    height: 20px;
+    color: #0F6674 !important;
+    background: #007bff;
+}
+
+.footer{
+    color: #060507;
+    margin-right: 35px;
+    margin-left: 39px;
+}
+ul.a {
+    color: #060507;
+    list-style-type: square;
+}
+
+/*@media (max-width: 575.98px) {*/
+/*html{*/
+
+/*}*/
+/*}*/
+
+
+
+
+
+
+
+
+
+/
+
+
